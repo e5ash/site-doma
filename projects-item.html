@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<title>ДОМА — Проект</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+		<!-- Подключение стилей -->
+		<link rel="stylesheet" href="styles/libs.min.css">
+		<link rel="stylesheet" href="styles/style.css">
+		<link rel="stylesheet" href="styles/responsive.css">
+		<!-- Конец подключения стилей -->
+		
+		<!-- Подключение скриптов -->
+		<script src="scripts/libs.min.js"></script>
+		<script src="scripts/scripts.js"></script>
+		<!-- Конец подключения скриптов -->
+	</head>
+	<body>
+		<!-- `Всплывающее окно` -->
+		<div class="popup">
+			<div class="popup__container container">
+				<!-- `Форма` -->
+				<div class="popup__window popup__window_step-1">
+					<div class="popup__close button-close"><span></span><span></span></div>
+					<div class="popup__body">
+						<form action="">
+							<div class="popup__title">ОБРАТНАЯ СВЯЗЬ</div>
+							<div class="popup__desc">Для отправки вашего сообщения заполните форму <br />и нажмите кнопку “Отправить”.</div>
+							<div class="popup__elements">
+								
+									<input type="text" class="popup__input input input-name" name="name required" placeholder="Имя">
+									<input type="text" class="popup__input input input-email required" name="email" placeholder="Эл.почта">
+									<input type="text" class="popup__input input input-phone required" name="phone" placeholder="+7 (      )       -    -">
+									<textarea class="popup__textarea textarea" name="comment" placeholder="Сообщение"></textarea>
+								
+							</div>
+							<div class="popup__bottom">
+								<button class="popup__button button button_gray">ОТПРАВИТЬ</button>
+								<div class="popup__guarantee">Гарантируем конфиденциальность ваших <br />данных.</div>
+							</div>
+							<div class="popup__all">Все поля обязательны для заполнения</div>
+							<div class="message">Заполните пожалуйста все поля!</div>
+						</form>
+					</div>
+				</div>
+				<!-- Конец `Форма` -->
+
+				<!-- `Успешно` -->
+				<div class="popup__window popup__window_step-2">
+					<div class="popup__close button-close"><span></span><span></span></div>
+					<div class="popup__body">
+						<div class="popup__title">СООБЩЕНИЕ ОТПРАВЛЕНО</div>
+						<div class="popup__text">Ваше сообщение успешно отправлено. В ближайшее время наши менеджеры свяжутся с вами!</div>
+						<div class="popup__button button button_red button-close"><span>Закрыть сообщение</span></div>
+					</div>
+				</div>
+				<!-- Конец `Успешно` -->
+			</div>
+			<div class="popup__bg"></div>
+		</div>
+		<!-- Конец `Всплывающее окно` -->
+
+		<!-- `Шапка` -->
+		<div class="mobile-nav">
+			<div class="mobile-nav__close">
+				<span></span><span></span>
+			</div>
+			<div class="mobile-nav__list"></div>
+			<div class="mobile-nav__contacts"></div>
+		</div>
+		<div class="header">
+			<div class="container row">
+				<div class="header__logo col"><a href="/index.html"><img src="upload/logo.png" alt=""></a></div>
+				<div class="header__desc col">Деревянные<br />дома и<br />конструкции</div>
+				<div class="header__content col">
+					<!-- `Навигация` -->
+					<ul class="nav li_reset li_line">
+						<li><a href="/index.html"><i class="icon icon-house-white"></i><span>ГЛАВНАЯ</span></a></li>
+						<li class="nav__item_select"><a href="/projects-item.html">ПРОЕКТЫ</a></li>
+						<li><a href="/portfolio.html">ПОРТФОЛИО</a></li>
+						<li><a href="/textpage.html">ИНФОРМАЦИЯ</a></li>
+						<li><a href="/contacts.html">КОНТАКТЫ</a></li>
+					</ul>
+					<!-- Конец `Навигация` -->
+
+					<!-- `Контакты` -->
+					<div class="header__contacts row">
+						<div class="header__phone col"><a href="">8 800 250 04 48</a><span>бесплатно по всей России</span></div>
+						<div class="header__phone col"><a href="">8 423 294 77 55</a><span>во Владивостоке</span></div>
+						<div class="header__feedback col callback"><i class="icon icon-mail-minni"></i><span>Напишите нам</span></div>
+					</div>
+					<!-- Конец `Контакты` -->
+				</div>
+				<div class="mobile-btn-nav">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+		<!-- Конец `Шапка` -->
+
+		<!-- `Контент` -->
+		<div class="main">
+			<!-- `Хлебные крошки` -->
+			<div class="breadcrumbs">
+				<div class="container">
+					<ul class="li_reset li_line">
+						<li><a href="/index.html">DOM-A</a></li>
+						<li><a href="/projects.html">Проекты</a></li>
+						<li>Проект дома “Анастасия”</li>
+					</ul>
+				</div>
+			</div>
+			<!-- Конец `Хлебные крошки` -->
+
+			<div class="container">
+				<!-- `Страница проекта` -->
+				<div class="project-page row">
+					<div class="project-page__right col">
+						<!-- `Страница проекта - контент` -->
+						<h1 class="title">Проект дома “АНАСТАСИЯ”</h1>
+						<div class="project-page__desc">Аккуратный одноэтажный дом с деревянной облицовкой фасадов.</div>
+						<div class="project-page__table">
+							<div class="project-page__subtitle">Характеристики</div>
+							<table class="table">
+								<tr>
+									<td>Площадь</td>
+									<td>65 м2</td>
+								</tr>
+								<tr>
+									<td>Фундамент</td>
+									<td>Свайный, буровой</td>
+								</tr>
+								<tr>
+									<td>Наружные стены</td>
+									<td>деревянный каркас</td>
+								</tr>
+								<tr>
+									<td>Перекрытия</td>
+									<td>по деревянным балкам</td>
+								</tr>
+								<tr>
+									<td>Кровля</td>
+									<td>керамическая черепица, металлочерепица, цементно-песчаная черепица</td>
+								</tr>
+							</table>
+						</div>
+						<div class="price">
+							<div class="project-page__subtitle">СТОИМОСТЬ</div>
+							<div class="price__count">от <span>1 780 000</span> руб.</div>
+							<div class="price__desc">Точная стоимость дома зависит от особенностей участка и рассчитывается индивидуально.</div>
+						</div>
+						<!-- Конец `Страница проекта - контент` -->
+
+						<!-- `Страница проекта - задать вопрос` -->
+						<div class="question">
+							<div class="question__title">Есть вопросы? <span>ЗАДАВАЙТЕ!</span></div>
+							<div class="question__wrapper">
+								<div class="question__number">8 800 250 04 48</div>
+								<div class="question__desc">бесплатно по всей России</div>
+								<div class="question__email"><i class="icon icon-mail-big"></i><a href="">market@dom-a.net</a></div>
+							</div>
+						</div>
+						<!-- Конец `Страница проекта - задать вопрос` -->
+					</div>
+					<div class="project-page__left col">
+						<!-- `Страница проекта - изображение` -->
+						<div class="image">
+							<a href="upload/project/main.png" data-fancybox="images"><img src="upload/project/main.png" alt="" class="image__item"></a>
+							<div class="image__icon"><i class="icon icon-magnifying-glass-minni"></i><span>кликните на фото для увеличения</span></div>
+						</div>
+						<!-- Конец `Страница проекта - изображение` -->
+
+						<!-- `Страница проекта - изображения` -->
+						<div class="images">
+							<div class="images__title">ФОТО ПРОЕКТА</div>
+							<div class="images__list row">
+								<div class="col"><div class="images__item"><a href="upload/project/main.png" data-fancybox="images"><i class="icon icon-magnifying-glass-big"></i><img src="upload/project/main.png" alt=""></a></div></div>
+								<div class="col"><div class="images__item"><a href="upload/project/main.png" data-fancybox="images"><i class="icon icon-magnifying-glass-big"></i><img src="upload/project/main.png" alt=""></a></div></div>
+								<div class="col"><div class="images__item"><a href="upload/project/main.png" data-fancybox="images"><i class="icon icon-magnifying-glass-big"></i><img src="upload/project/main.png" alt=""></a></div></div>
+							</div>
+						</div>
+						<!-- Конец `Страница проекта - изображения` -->
+
+						<!-- `Страница проекта - план` -->
+						<div class="plan">
+							<div class="plan__title">ПЛАН ДОМА</div>
+							<div class="plan__list row">
+								<div class="col"><a href="upload/plan/1.png" data-fancybox="plan"><div class="plan__img"><img src="upload/plan/1.png" alt=""></div><span class="plan__subtitle">План 1-го этажа</span></a></div>
+								<div class="col"><a href="upload/plan/2.png" data-fancybox="plan"><div class="plan__img"><img src="upload/plan/2.png" alt=""></div><span class="plan__subtitle">План 2-го этажа</span></a></div>
+							</div>
+						</div>
+						<!-- Конец `Страница проекта - план` -->
+					</div>
+				</div>
+				<!-- Конец `Страница проекта` -->
+			</div>
+		</div>
+		<!-- Конец `Контент` -->
+
+		<!-- `Подвал` -->
+		<div class="footer">
+			<div class="container row">
+				<div class="footer__contacts col">
+					<div class="footer__address"><span>г. Москва, ул. Новоивановская, 45, к.2</span>график работы: ежедневно с 10 до 18</div>
+					<div class="footer__phones row">
+						<div class="footer__phone col"><a href="">8 800 250 04 48</a>бесплатно по всей России</div>
+						<div class="footer__phone col"><a href="">8 423 294 77 55</a>во Владивостоке</div>
+					</div>
+					<div class="footer__email">Эл.почта: <a href="">market@dom-a.net</a></div>
+				</div>
+				<div class="footer__copy col">
+					<!-- `Копирайт` -->
+					<p>© 2017 DOMA - Деревянные дома и конструкции по всей России.</p>
+					<p>Все права защищены. Информация о ценах на сайте не является публичной офертой и представлена для ознакомления.</p>
+					<!-- Конец `Копирайт` -->
+
+					<div class="footer__counter">
+						<!--LiveInternet counter--><script type="text/javascript">
+						document.write("<a href='//www.liveinternet.ru/click' "+
+						"target=_blank><img src='//counter.yadro.ru/hit?t26.6;r"+
+						escape(document.referrer)+((typeof(screen)=="undefined")?"":
+						";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+						screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+						";"+Math.random()+
+						"' alt='' title='LiveInternet: показано число посетителей за"+
+						" сегодня' "+
+						"border='0' width='88' height='15'><\/a>")
+						</script><!--/LiveInternet-->
+					</div>
+
+					<p>Разработка сайта - <a href="" target="_blank">Наименование студии</a></p>
+				</div>
+				
+			</div>
+		</div>
+		<!-- Конец `Подвал` -->
+	</body>
+</html>

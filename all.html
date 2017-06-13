@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<title>ДОМА — Все элементы</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		
+		<!-- Подключение стилей -->
+		<link rel="stylesheet" href="styles/libs.min.css">
+		<link rel="stylesheet" href="styles/style.css">
+		<link rel="stylesheet" href="styles/responsive.css">
+		<!-- Конец подключения стилей -->
+		
+		<!-- Подключение скриптов -->
+		<script src="scripts/libs.min.js"></script>
+		<script src="scripts/scripts.js"></script>
+		<!-- Конец подключения скриптов -->
+	</head>
+	<body>
+		<!-- `Всплывающее окно` -->
+		<div class="popup">
+			<div class="popup__container container">
+				<!-- `Форма` -->
+				<div class="popup__window popup__window_step-1">
+					<div class="popup__close button-close"><span></span><span></span></div>
+					<div class="popup__body">
+						<form action="">
+							<div class="popup__title">ОБРАТНАЯ СВЯЗЬ</div>
+							<div class="popup__desc">Для отправки вашего сообщения заполните форму <br />и нажмите кнопку “Отправить”.</div>
+							<div class="popup__elements">
+								
+									<input type="text" class="popup__input input input-name" name="name required" placeholder="Имя">
+									<input type="text" class="popup__input input input-email required" name="email" placeholder="Эл.почта">
+									<input type="text" class="popup__input input input-phone required" name="phone" placeholder="+7 (      )       -    -">
+									<textarea class="popup__textarea textarea" name="comment" placeholder="Сообщение"></textarea>
+								
+							</div>
+							<div class="popup__bottom">
+								<button class="popup__button button button_gray">ОТПРАВИТЬ</button>
+								<div class="popup__guarantee">Гарантируем конфиденциальность ваших <br />данных.</div>
+							</div>
+							<div class="popup__all">Все поля обязательны для заполнения</div>
+							<div class="message">Заполните пожалуйста все поля!</div>
+						</form>
+					</div>
+				</div>
+				<!-- Конец `Форма` -->
+
+				<!-- `Успешно` -->
+				<div class="popup__window popup__window_step-2">
+					<div class="popup__close button-close"><span></span><span></span></div>
+					<div class="popup__body">
+						<div class="popup__title">СООБЩЕНИЕ ОТПРАВЛЕНО</div>
+						<div class="popup__text">Ваше сообщение успешно отправлено. В ближайшее время наши менеджеры свяжутся с вами!</div>
+						<div class="popup__button button button_red button-close"><span>Закрыть сообщение</span></div>
+					</div>
+				</div>
+				<!-- Конец `Успешно` -->
+			</div>
+			<div class="popup__bg"></div>
+		</div>
+		<!-- Конец `Всплывающее окно` -->
+
+		<!-- `Шапка` -->
+		<div class="mobile-nav">
+			<div class="mobile-nav__close">
+				<span></span><span></span>
+			</div>
+			<div class="mobile-nav__list"></div>
+			<div class="mobile-nav__contacts"></div>
+		</div>
+		<div class="header">
+			<div class="container row">
+				<div class="header__logo col"><a href=""><img src="upload/logo.png" alt=""></a></div>
+				<div class="header__desc col">Деревянные<br />дома и<br />конструкции</div>
+				<div class="header__content col">
+					<!-- `Навигация` -->
+					<ul class="nav li_reset li_line">
+						<li class="nav__item_select"><a href="/index.html"><i class="icon icon-house-white"></i><span>ГЛАВНАЯ</span></a></li>
+						<li><a href="/projects.html">ПРОЕКТЫ</a></li>
+						<li><a href="/portfolio.html">ПОРТФОЛИО</a></li>
+						<li><a href="/textpage.html">ИНФОРМАЦИЯ</a></li>
+						<li><a href="/contacts.html">КОНТАКТЫ</a></li>
+					</ul>
+					<!-- Конец `Навигация` -->
+
+					<!-- `Контакты` -->
+					<div class="header__contacts row">
+						<div class="header__phone col"><a href="">8 800 250 04 48</a><span>бесплатно по всей России</span></div>
+						<div class="header__phone col"><a href="">8 423 294 77 55</a><span>во Владивостоке</span></div>
+						<div class="header__feedback col callback"><i class="icon icon-mail-minni"></i><span>Напишите нам</span></div>
+					</div>
+					<!-- Конец `Контакты` -->
+				</div>
+				<div class="mobile-btn-nav">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+		<!-- Конец `Шапка` -->
+
+		<!-- `Контент` -->
+		<div class="main">
+			<!-- `Слайдер` -->
+			<div class="slider">
+				<div class="slider__title">
+					<div class="container"><span>НАДЁЖНЫЙ ДОМ</span><span>ДЛЯ СПОКОЙНОЙ ЖИЗНИ</span></div>
+				</div>
+				<div class="slider__list">
+					<div class="slider__item"><img src="upload/slider/1.jpg" alt=""></div>
+					<div class="slider__item"><img src="upload/slider/1.jpg" alt=""></div>
+					<div class="slider__item"><img src="upload/slider/1.jpg" alt=""></div>
+				</div>
+			</div>
+			<!-- Конец `Слайдер` -->
+
+			<!-- `Хлебные крошки` -->
+			<div class="breadcrumbs">
+				<div class="container">
+					<ul class="li_reset li_line">
+						<li><a href="/index.html">DOM-A</a></li>
+						<li>Контакты</li>
+					</ul>
+				</div>
+			</div>
+			<!-- Конец `Хлебные крошки` -->
+
+			<div class="container">
+				<!-- `Популярные` -->
+				<div class="popular">
+					<div class="popular__title">ПОПУЛЯРНЫЕ ПРОЕКТЫ</div>
+					<div class="popular__list row">
+						<div class="popular__wrapper row">
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/1.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома “Анастасия”</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/2.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома “Великобритания”</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/3.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома “Александрия”</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/4.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома №2548</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/1.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома “Анастасия”</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/2.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома “Великобритания”</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/3.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома “Александрия”</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/4.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома №2548</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/1.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома “Анастасия”</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/2.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома “Великобритания”</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/3.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома “Александрия”</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/4.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома №2548</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/1.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома “Анастасия”</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/2.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома “Великобритания”</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/3.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома “Александрия”</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/4.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома №2548</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/1.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома “Анастасия”</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/2.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома “Великобритания”</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/3.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома “Александрия”</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/4.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома №2548</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/1.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома “Анастасия”</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/2.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома “Великобритания”</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/3.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома “Александрия”</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/4.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома №2548</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/1.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома “Анастасия”</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/2.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома “Великобритания”</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/3.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома “Александрия”</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/4.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома №2548</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/1.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома “Анастасия”</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/2.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома “Великобритания”</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/3.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома “Александрия”</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+
+							<!-- `Проект` -->
+							<a href="#" class="project">
+								<div class="project__img"><img src="upload/items/4.jpg" alt=""></div>
+								<div class="project__content">
+									<div class="project__title">Проект дома №2548</div>
+									<div class="project__desc">
+										<p>Количество комнат: <span>5 комнат</span></p>
+										<p>Общая площадь: <span>88 кв.м.</span></p>
+									</div>
+								</div>
+							</a>
+							<!-- Конец `Проект` -->
+						</div>
+					</div>
+				</div>
+				<!-- Конец `Популярные` -->
+
+				<!-- `Плашка` -->
+				<div class="plashka row">
+					<div class="plashka__title col">Есть вопросы?<span>ЗАДАВАЙТЕ!</span></div>
+					<div class="plashka__number col"><a href="#">8 800 250 04 48</a>бесплатно по всей России</div>
+					<div class="plashka__email col"><i class="icon icon-mail-big"></i><a href="">market@dom-a.net</a></div>
+				</div>
+				<!-- Конец `Плашка` -->
+
+				<!-- `Текст` -->
+				<div class="main-content row">
+					<div class="main-content__left col">
+						<div class="main-content__title title">НАМ СТОИТ ДОВЕРЯТЬ</div>
+						<p>Строительная компания «DOMA» осуществляет строительство деревянных домов под ключ с 1992 года. За годы успешной работы мы накопили обширный опыт в сфере деревянного домостроения и являемся одним из уверенных лидеров рынка.
+						</p>
+						<p>Строительная компания «DOMA» осуществляет строительство деревянных домов под ключ с 1992 года. За годы успешной работы мы накопили обширный опыт в сфере деревянного домостроения и являемся одним из уверенных лидеров рынка.
+						</p>
+					</div>
+					<div class="main-content__right col">
+						<ul class="ul_square li_reset">
+							<li>25 лет в строительстве</li>
+							<li>Собственное производство</li>
+							<li>Тотальный контроль качества</li>
+							<li>Строительство домов из дерева в кредит</li>
+						</ul>
+					</div>
+				</div>
+				<!-- Конец `Текст` -->
+
+				<!-- `Контакты` -->
+				<div class="contacts">
+					<h1 class="title">КОНТАКТЫ</h1>
+					<div class="row">
+						<div class="contacts__left col">
+							<div class="contacts__block">
+								<p><span>Офис/факс: </span>+7 (423) 294 77 55</p>
+								<p><span>Основные вопросы: </span>8 800 250 0448</p>
+								<p><span>Производственно-технический отдел: </span>+7 (423) 230 26 57</p>
+							</div>
+							<div class="contacts__block">
+								<p><span>Адрес: </span>690091, г. Владивосток, Океанский проспект, 10-А оф. 210</p>
+								<p><span>График работы: </span>Ежедневно с 10 до 20. Без выходных</p>
+							</div>
+							<div class="contacts__block">
+								<p><span>Электронная почта: </span><a href="" class="email">market@dom-a.net</a></p>
+							</div>
+							<div class="contacts__map"><a class="dg-widget-link" href="http://2gis.ru/vladivostok/firm/3518965489862892/center/131.92507266998294,43.1365373882593/zoom/15?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть на карте Владивостока</a><div class="dg-widget-link"><a href="http://2gis.ru/vladivostok/firm/3518965489862892/photos/3518965489862892/center/131.92507266998294,43.1365373882593/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos">Фотографии компании</a></div><div class="dg-widget-link"><a href="http://2gis.ru/vladivostok/center/131.925036,43.132621/zoom/15/routeTab/rsType/bus/to/131.925036,43.132621╎Сбербанк, ПАО?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти проезд до Сбербанк, ПАО</a></div><script charset="utf-8" src="http://widgets.2gis.com/js/DGWidgetLoader.js"></script><script charset="utf-8">new DGWidgetLoader({"width":500,"height":400,"borderColor":"#a3a3a3","pos":{"lat":43.1365373882593,"lon":131.92507266998294,"zoom":15},"opt":{"city":"vladivostok"},"org":[{"id":"3518965489862892"}]});</script><noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript></div>
+						</div>
+						<div class="contacts__right col">
+							<div class="feedback">
+								<form action="">
+									<div class="feedback__title">ОБРАТНАЯ СВЯЗЬ</div>
+									<div class="feedback__elements">
+										<input type="text" class="feedback__input input input-name required" name="name" placeholder="Имя">
+										<input type="text" class="feedback__input input input-email required" name="email" placeholder="Эл.почта">
+										<input type="text" class="feedback__input input input-phone required" name="phone" placeholder="+7 (      )       -    -">
+										<textarea class="feedback__textarea textarea" name="comment" placeholder="Сообщение"></textarea>
+									</div>
+									<div class="feedback__all">Все поля обязательны для заполнения</div>
+									<button class="feedback__button button button_block button_gray">ОТПРАВИТЬ</button>
+									<div class="feedback__confirmation">Нажимая кнопку “Отправить” вы принимаете <a href="">данное соглашение</a> на обработку данных.</div>
+									<div class="message message_true">Сообщение успешно отправлено!</div>
+									<div class="message message_false">Заполните пожалуйста все поля!</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Конец `Контакты` -->
+
+				<!-- `Альбом` -->
+				<div class="album">
+					<h1 class="title">НАИМЕНОВАНИЕ ФОТОГАЛЕРЕИ</h1>
+					<div class="album__list">
+						<div class="row">
+							<div class="col">
+								<a class="album__item" href="upload/photos/1.jpg" data-fancybox="album">
+									<div class="album__img"><img src="upload/photos/1.jpg" alt=""></div>
+									<div class="album__title">Подпись к фотографии если будет расположится тут</div>
+								</a>
+							</div>
+							<div class="col">
+								<a class="album__item" href="upload/photos/2.jpg" data-fancybox="album">
+									<div class="album__img"><img src="upload/photos/2.jpg" alt=""></div>
+									<div class="album__title"></div>
+								</a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<a class="album__item" href="upload/photos/3.jpg" data-fancybox="album">
+									<div class="album__img"><img src="upload/photos/3.jpg" alt=""></div>
+									<div class="album__title"></div>
+								</a>
+							</div>
+							<div class="col">
+								<a class="album__item" href="upload/photos/4.jpg" data-fancybox="album">
+									<div class="album__img"><img src="upload/photos/4.jpg" alt=""></div>
+									<div class="album__title"></div>
+								</a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<a class="album__item" href="upload/photos/1.jpg" data-fancybox="album">
+									<div class="album__img"><img src="upload/photos/1.jpg" alt=""></div>
+									<div class="album__title"></div>
+								</a>
+							</div>
+							<div class="col">
+								<a class="album__item" href="upload/photos/2.jpg" data-fancybox="album">
+									<div class="album__img"><img src="upload/photos/2.jpg" alt=""></div>
+									<div class="album__title"></div>
+								</a>
+							</div>
+						</div>
+						<div class="return"><a href="#"><i class="icon icon-arrow"></i><span>вернуться в портфолио</span></a></div>
+					</div>
+				</div>
+				<!-- Конец `Альбом` -->
+
+				<!-- `Проекты` -->
+				<div class="projects">
+					<h1 class="title">ПРОЕКТЫ</h1>
+					<div class="projects__list">
+						<div class="row">
+							<div class="col">
+								<!-- `Проект` -->
+								<a href="#" class="project">
+									<div class="project__img"><img src="upload/items/1.jpg" alt=""></div>
+									<div class="project__content">
+										<div class="project__title">Проект дома “Анастасия”</div>
+										<div class="project__desc">
+											<p>Количество комнат: <span>5 комнат</span></p>
+											<p>Общая площадь: <span>88 кв.м.</span></p>
+										</div>
+									</div>
+								</a>
+								<!-- Конец `Проект` -->
+							</div>
+							<div class="col">
+								<!-- `Проект` -->
+								<a href="#" class="project">
+									<div class="project__img"><img src="upload/items/2.jpg" alt=""></div>
+									<div class="project__content">
+										<div class="project__title">Проект дома “Великобритания”</div>
+										<div class="project__desc">
+											<p>Количество комнат: <span>5 комнат</span></p>
+											<p>Общая площадь: <span>88 кв.м.</span></p>
+										</div>
+									</div>
+								</a>
+								<!-- Конец `Проект` -->
+							</div>
+							<div class="col">
+								<!-- `Проект` -->
+								<a href="#" class="project">
+									<div class="project__img"><img src="upload/items/3.jpg" alt=""></div>
+									<div class="project__content">
+										<div class="project__title">Проект дома “Александрия”</div>
+										<div class="project__desc">
+											<p>Количество комнат: <span>5 комнат</span></p>
+											<p>Общая площадь: <span>88 кв.м.</span></p>
+										</div>
+									</div>
+								</a>
+								<!-- Конец `Проект` -->
+							</div>
+							<div class="col">
+								<!-- `Проект` -->
+								<a href="#" class="project">
+									<div class="project__img"><img src="upload/items/4.jpg" alt=""></div>
+									<div class="project__content">
+										<div class="project__title">Проект дома №2548</div>
+										<div class="project__desc">
+											<p>Количество комнат: <span>5 комнат</span></p>
+											<p>Общая площадь: <span>88 кв.м.</span></p>
+										</div>
+									</div>
+								</a>
+								<!-- Конец `Проект` -->
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<!-- `Проект` -->
+								<a href="#" class="project">
+									<div class="project__img"><img src="upload/items/1.jpg" alt=""></div>
+									<div class="project__content">
+										<div class="project__title">Проект дома “Анастасия”</div>
+										<div class="project__desc">
+											<p>Количество комнат: <span>5 комнат</span></p>
+											<p>Общая площадь: <span>88 кв.м.</span></p>
+										</div>
+									</div>
+								</a>
+								<!-- Конец `Проект` -->
+							</div>
+							<div class="col">
+								<!-- `Проект` -->
+								<a href="#" class="project">
+									<div class="project__img"><img src="upload/items/2.jpg" alt=""></div>
+									<div class="project__content">
+										<div class="project__title">Проект дома “Великобритания”</div>
+										<div class="project__desc">
+											<p>Количество комнат: <span>5 комнат</span></p>
+											<p>Общая площадь: <span>88 кв.м.</span></p>
+										</div>
+									</div>
+								</a>
+								<!-- Конец `Проект` -->
+							</div>
+							<div class="col">
+								<!-- `Проект` -->
+								<a href="#" class="project">
+									<div class="project__img"><img src="upload/items/3.jpg" alt=""></div>
+									<div class="project__content">
+										<div class="project__title">Проект дома “Александрия”</div>
+										<div class="project__desc">
+											<p>Количество комнат: <span>5 комнат</span></p>
+											<p>Общая площадь: <span>88 кв.м.</span></p>
+										</div>
+									</div>
+								</a>
+								<!-- Конец `Проект` -->
+							</div>
+							<div class="col">
+								<!-- `Проект` -->
+								<a href="#" class="project">
+									<div class="project__img"><img src="upload/items/4.jpg" alt=""></div>
+									<div class="project__content">
+										<div class="project__title">Проект дома №2548</div>
+										<div class="project__desc">
+											<p>Количество комнат: <span>5 комнат</span></p>
+											<p>Общая площадь: <span>88 кв.м.</span></p>
+										</div>
+									</div>
+								</a>
+								<!-- Конец `Проект` -->
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<!-- `Проект` -->
+								<a href="#" class="project">
+									<div class="project__img"></div>
+									<div class="project__content">
+										<div class="project__title">Проект дома “Анастасия”</div>
+										<div class="project__desc">
+											<p>Количество комнат: <span>5 комнат</span></p>
+											<p>Общая площадь: <span>88 кв.м.</span></p>
+										</div>
+									</div>
+								</a>
+								<!-- Конец `Проект` -->
+							</div>
+							<div class="col">
+								<!-- `Проект` -->
+								<a href="#" class="project">
+									<div class="project__img"></div>
+									<div class="project__content">
+										<div class="project__title">Проект дома “Великобритания”</div>
+										<div class="project__desc">
+											<p>Количество комнат: <span>5 комнат</span></p>
+											<p>Общая площадь: <span>88 кв.м.</span></p>
+										</div>
+									</div>
+								</a>
+								<!-- Конец `Проект` -->
+							</div>
+							<div class="col">
+								<!-- `Проект` -->
+								<a href="#" class="project">
+									<div class="project__img"></div>
+									<div class="project__content">
+										<div class="project__title">Проект дома “Александрия”</div>
+										<div class="project__desc">
+											<p>Количество комнат: <span>5 комнат</span></p>
+											<p>Общая площадь: <span>88 кв.м.</span></p>
+										</div>
+									</div>
+								</a>
+								<!-- Конец `Проект` -->
+							</div>
+							<div class="col">
+								<!-- `Проект` -->
+								<a href="#" class="project">
+									<div class="project__img"></div>
+									<div class="project__content">
+										<div class="project__title">Проект дома №2548</div>
+										<div class="project__desc">
+											<p>Количество комнат: <span>5 комнат</span></p>
+											<p>Общая площадь: <span>88 кв.м.</span></p>
+										</div>
+									</div>
+								</a>
+								<!-- Конец `Проект` -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Конец `Проекты` -->
+
+				<!-- `Страница проекта` -->
+				<div class="project-page row">
+					<div class="project-page__right col">
+						<!-- `Страница проекта - контент` -->
+						<h1 class="title">Проект дома “АНАСТАСИЯ”</h1>
+						<div class="project-page__desc">Аккуратный одноэтажный дом с деревянной облицовкой фасадов.</div>
+						<div class="project-page__table">
+							<div class="project-page__subtitle">Характеристики</div>
+							<table class="table">
+								<tr>
+									<td>Площадь</td>
+									<td>65 м2</td>
+								</tr>
+								<tr>
+									<td>Фундамент</td>
+									<td>Свайный, буровой</td>
+								</tr>
+								<tr>
+									<td>Наружные стены</td>
+									<td>деревянный каркас</td>
+								</tr>
+								<tr>
+									<td>Перекрытия</td>
+									<td>по деревянным балкам</td>
+								</tr>
+								<tr>
+									<td>Кровля</td>
+									<td>керамическая черепица, металлочерепица, цементно-песчаная черепица</td>
+								</tr>
+							</table>
+						</div>
+						<div class="price">
+							<div class="project-page__subtitle">СТОИМОСТЬ</div>
+							<div class="price__count">от <span>1 780 000</span> руб.</div>
+							<div class="price__desc">Точная стоимость дома зависит от особенностей участка и рассчитывается индивидуально.</div>
+						</div>
+						<!-- Конец `Страница проекта - контент` -->
+
+						<!-- `Страница проекта - задать вопрос` -->
+						<div class="question">
+							<div class="question__title">Есть вопросы? <span>ЗАДАВАЙТЕ!</span></div>
+							<div class="question__wrapper">
+								<div class="question__number">8 800 250 04 48</div>
+								<div class="question__desc">бесплатно по всей России</div>
+								<div class="question__email"><i class="icon icon-mail-big"></i><a href="">market@dom-a.net</a></div>
+							</div>
+						</div>
+						<!-- Конец `Страница проекта - задать вопрос` -->
+					</div>
+					<div class="project-page__left col">
+						<!-- `Страница проекта - изображение` -->
+						<div class="image">
+							<a href="upload/project/main.png" data-fancybox="images"><img src="upload/project/main.png" alt="" class="image__item"></a>
+							<div class="image__icon"><i class="icon icon-magnifying-glass-minni"></i><span>кликните на фото для увеличения</span></div>
+						</div>
+						<!-- Конец `Страница проекта - изображение` -->
+
+						<!-- `Страница проекта - изображения` -->
+						<div class="images">
+							<div class="images__title">ФОТО ПРОЕКТА</div>
+							<div class="images__list row">
+								<div class="col"><div class="images__item"><a href="upload/project/main.png" data-fancybox="images"><i class="icon icon-magnifying-glass-big"></i><img src="upload/project/main.png" alt=""></a></div></div>
+								<div class="col"><div class="images__item"><a href="upload/project/main.png" data-fancybox="images"><i class="icon icon-magnifying-glass-big"></i><img src="upload/project/main.png" alt=""></a></div></div>
+								<div class="col"><div class="images__item"><a href="upload/project/main.png" data-fancybox="images"><i class="icon icon-magnifying-glass-big"></i><img src="upload/project/main.png" alt=""></a></div></div>
+							</div>
+						</div>
+						<!-- Конец `Страница проекта - изображения` -->
+
+						<!-- `Страница проекта - план` -->
+						<div class="plan">
+							<div class="plan__title">ПЛАН ДОМА</div>
+							<div class="plan__list row">
+								<div class="col"><a href="upload/plan/1.png" data-fancybox="plan"><div class="plan__img"><img src="upload/plan/1.png" alt=""></div><span class="plan__subtitle">План 1-го этажа</span></a></div>
+								<div class="col"><a href="upload/plan/2.png" data-fancybox="plan"><div class="plan__img"><img src="upload/plan/2.png" alt=""></div><span class="plan__subtitle">План 2-го этажа</span></a></div>
+							</div>
+						</div>
+						<!-- Конец `Страница проекта - план` -->
+					</div>
+				</div>
+				<!-- Конец `Страница проекта` -->
+
+				<!-- `Портфолио` -->
+				<div class="portfolio">
+					<h1 class="title">ПОРТФОЛИО</h1>
+					<div class="portfolio__list">
+						<!-- `Портфолио - итем` -->
+						<div class="portfolio__item row">
+							<div class="portfolio__img col">
+								<img src="upload/portfolio/1.jpg" alt="">
+								<div class="img-count"><i class="icon icon-photo"></i><span>3 фото</span></div>
+							</div>
+							<div class="portfolio__content col">
+								<div class="portfolio__title"><a href="">Название фотогалереи разместится тут</a></div>
+								<div class="portfolio__desc">Политическое учение Монтескье, несмотря на внешние воздействия, определяет социализм. Несмотря на внутренние противоречия, пуанта символизирует гармонический интервал. Важно иметь в виду, что натуралистическая парадигма однозначно трансформирует субъект власти.</div>
+								<div class="portfolio__date">10.05.2017</div>
+							</div>
+						</div>
+						<!-- Конец `Портфолио - итем` -->
+
+						<!-- `Портфолио - итем` -->
+						<div class="portfolio__item row">
+							<div class="portfolio__img col">
+								<img src="upload/portfolio/2.jpg" alt="">
+								<div class="img-count"><i class="icon icon-photo"></i><span>25 фото</span></div>
+							</div>
+							<div class="portfolio__content col">
+								<div class="portfolio__title"><a href="">Название фотогалереи разместится тут</a></div>
+								<div class="portfolio__desc">Политическое учение Монтескье, несмотря на внешние воздействия, определяет социализм. Несмотря на внутренние противоречия, пуанта символизирует гармонический интервал. Важно иметь в виду, что натуралистическая парадигма однозначно трансформирует субъект власти.</div>
+								<div class="portfolio__date">10.05.2017</div>
+							</div>
+						</div>
+						<!-- Конец `Портфолио - итем` -->
+
+						<!-- `Портфолио - итем` -->
+						<div class="portfolio__item row">
+							<div class="portfolio__img col">
+								<img src="upload/portfolio/3.jpg" alt="">
+								<div class="img-count"><i class="icon icon-photo"></i><span>5 фото</span></div>
+							</div>
+							<div class="portfolio__content col">
+								<div class="portfolio__title"><a href="">Название фотогалереи разместится тут</a></div>
+								<div class="portfolio__desc">Политическое учение Монтескье, несмотря на внешние воздействия, определяет социализм. Несмотря на внутренние противоречия, пуанта символизирует гармонический интервал. Важно иметь в виду, что натуралистическая парадигма однозначно трансформирует субъект власти.</div>
+								<div class="portfolio__date">10.05.2017</div>
+							</div>
+						</div>
+						<!-- Конец `Портфолио - итем` -->
+
+						<!-- `Портфолио - итем` -->
+						<div class="portfolio__item row">
+							<div class="portfolio__img col">
+								<div class="img-count"><i class="icon icon-photo"></i><span>0 фото</span></div>
+							</div>
+							<div class="portfolio__content col">
+								<div class="portfolio__title"><a href="">Название фотогалереи разместится тут</a></div>
+								<div class="portfolio__desc">Политическое учение Монтескье, несмотря на внешние воздействия, определяет социализм. Несмотря на внутренние противоречия, пуанта символизирует гармонический интервал. Важно иметь в виду, что натуралистическая парадигма однозначно трансформирует субъект власти.</div>
+								<div class="portfolio__date">10.05.2017</div>
+							</div>
+						</div>
+						<!-- Конец `Портфолио - итем` -->
+					</div>
+				</div>
+				<!-- Конец `Портфолио` -->
+
+				<!-- `Текстовая страница` -->
+				<div class="textpage">
+					<h1 class="title">информация о производстве</h1>
+					<img src="upload/textpage/1.png" alt="" class="img img-left">
+					<p>Не ставя под сомнение возможность разных подходов к почве, право собственности катастрофично переносит бугор пучения. Конкреция умышленно перемещает пахотный псевдомицелий. Плодородие, несмотря на внешние воздействия, наследует разрез.</p>
+					<p>Собственность, в сочетании с традиционными агротехническими приемами, индоссирует псевдомицелий. В соответствии со сложившейся правоприменительной <a href="http://site1.ru">пример оформления ссылки</a> конституционный влагомер. Доверенность отражает ничтожный влагомер, учитывая недостаточную <a href="http://site2.ru">ранее посещённая ссылка</a> права. Дождевание, как неоднократно наблюдалось при чрезмерном вмешательстве государства в данные правоотношения, теоретически отталкивает пахотный аллювий. Взвесь иссушает судебный бур. Лесополоса представляет собой непромывной влагомер. </p>
+					<p>Отчуждение стекает в законодательный показатель адсорбируемости натрия. Собственность не урегулирована. Штраф, если принять во внимание воздействие фактора времени, депонгирован.</p>
+					<h2>Заголовок второго уровня h2</h2>
+					<p>Переуплотнение трансформирует юридический взаимозачет, и это придает ему свое звучание, свой характер. Рефинансирование физически просветляет суд, вне зависимости от предсказаний теоретической модели явления. В ходе почвенно-мелиоративного исследования территории было установлено, что твердость традиционно формирует фронт. Кроме того, постоянно воспроизводится постулат о письме как о технике, обслуживающей язык, поэтому гарант индоссирован.</p>
+					<p>Микрозападина, как бы это ни казалось парадоксальным, неравноправно возмещает бытовой подряд. Подзол пространственно обязывает дебиторский бюкс. Оглинивание, соприкоснувшись в чем-то со своим главным антагонистом в постструктурной поэтике, редуцирует дактиль.</p>
+					<h3>Заголовок треьего уровня h3</h3>
+					<p>Субъективное восприятие нивелирует нормативный метр. Мульча просветляет показатель адсорбируемости натрия, и это ясно видно в следующем отрывке: «Курит ли трупка мой, – из трупка тфой пихтишь. / Или мой кафе пил – тфой в щашешка сидишь». Банкротство, вследствие пространственной неоднородности почвенного покрова, притягивает поглотительный закон.</p>
+					<h4>Заголовок четвертого уровня h4</h4>
+					<p>В отличие от решений судов, имеющих обязательную силу, типизация семантически нивелирует диалогический диалогический контекст. Окисление, в сочетании с традиционными агротехническими приемами, жизненно наследует задаток. Конечно, нельзя не принять во внимание тот факт, что компенсация катастрофично аннигилирует поэтический пастиш.</p>
+					<h4>Нумерованный список</h4>
+					<ol>
+						<li>Разработка индивидуального проекта. Внесение любых изменений в проект.</li>
+						<li>Выезд специалиста для привязки фундамента и дома на участке.</li>
+						<li>Гидроизоляция по поверхности фундамента — рубероид.</li>
+						<li>Стеновой комплект</li>
+					</ol>
+					<h4>Маркированный список</h4>
+					<ul class="ul_diamond">
+						<li>Разработка индивидуального проекта. Внесение любых изменений в проект.</li>
+						<li>Выезд специалиста для привязки фундамента и дома на участке.</li>
+						<li>Гидроизоляция по поверхности фундамента — рубероид.</li>
+						<li>Стеновой комплект</li>
+					</ul>
+					<h4>Оформление таблицы</h4>
+					<table class="table">
+						<thead>
+						<tr>
+							<th>1 ряд колонка 1</th>
+							<th>1 ряд колонка 2</th>
+							<th>1 ряд колонка 3</th>
+							<th>1 ряд колонка 4</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>1 ряд колонка 1</td>
+							<td>1 ряд колонка 2</td>
+							<td>1 ряд колонка 3</td>
+							<td>1 ряд колонка 4</td>
+						</tr>
+						<tr>
+							<td>2 ряд колонка 1</td>
+							<td>2 ряд колонка 2</td>
+							<td>2 ряд колонка 3</td>
+							<td>2 ряд колонка 4</td>
+						</tr>
+						<tr>
+							<td>3 ряд колонка 1</td>
+							<td>3 ряд колонка 2</td>
+							<td>3 ряд колонка 3</td>
+							<td>3 ряд колонка 4</td>
+						</tr>
+						<tr>
+							<td>4 ряд колонка 1</td>
+							<td>4 ряд колонка 2</td>
+							<td>4 ряд колонка 3</td>
+							<td>4 ряд колонка 4</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+				<!-- Конец `Текстовая страница` -->
+			</div>
+		</div>
+		<!-- Конец `Контент` -->
+
+		<!-- `Подвал` -->
+		<div class="footer">
+			<div class="container row">
+				<div class="footer__contacts col">
+					<div class="footer__address"><span>г. Москва, ул. Новоивановская, 45, к.2</span>график работы: ежедневно с 10 до 18</div>
+					<div class="footer__phones row">
+						<div class="footer__phone col"><a href="">8 800 250 04 48</a>бесплатно по всей России</div>
+						<div class="footer__phone col"><a href="">8 423 294 77 55</a>во Владивостоке</div>
+					</div>
+					<div class="footer__email">Эл.почта: <a href="">market@dom-a.net</a></div>
+				</div>
+				<div class="footer__copy col">
+					<!-- `Копирайт` -->
+					<p>© 2017 DOMA - Деревянные дома и конструкции по всей России.</p>
+					<p>Все права защищены. Информация о ценах на сайте не является публичной офертой и представлена для ознакомления.</p>
+					<!-- Конец `Копирайт` -->
+
+					<div class="footer__counter">
+						<!--LiveInternet counter--><script type="text/javascript">
+						document.write("<a href='//www.liveinternet.ru/click' "+
+						"target=_blank><img src='//counter.yadro.ru/hit?t26.6;r"+
+						escape(document.referrer)+((typeof(screen)=="undefined")?"":
+						";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+						screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+						";"+Math.random()+
+						"' alt='' title='LiveInternet: показано число посетителей за"+
+						" сегодня' "+
+						"border='0' width='88' height='15'><\/a>")
+						</script><!--/LiveInternet-->
+					</div>
+
+					<p>Разработка сайта - <a href="" target="_blank">Наименование студии</a></p>
+				</div>
+				
+			</div>
+		</div>
+		<!-- Конец `Подвал` -->
+	</body>
+</html>

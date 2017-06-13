@@ -1,0 +1,382 @@
+.mobile-nav
+	display: none
+.mobile-nav__close
+	position: absolute
+	right: 20px
+	top: 20px
+	cursor: pointer
+	width: 13px
+	height: 13px
+	span
+		position: relative
+		display: block
+		width: 13px
+		height: 3px
+		background: white
+		&:nth-of-type(1)
+			top: 3px
+			transform: rotate(45deg)
+		&:nth-of-type(2)
+			transform: rotate(-45deg)
+.mobile-nav__list
+	background: #D0181C
+	padding-top: 40px
+	padding-bottom: 65px
+	.nav
+		margin-bottom: 0
+		.icon
+			display: none
+		span
+			display: block
+		li
+			display: block
+			margin-bottom: 4px
+			margin-left: auto !important
+			margin-right: auto !important
+			width: 165px
+			&:last-of-type
+				margin-bottom: 0
+.mobile-nav__contacts
+	color: white
+	background: #323232
+	padding-top: 23px
+	padding-bottom: 23px
+	a
+		color: white
+
+	.header__phone, .header__feedback
+		display: block
+		float: none
+		width: 165px
+		margin-left: auto
+		margin-right: auto
+	
+	.header__phone
+		margin-bottom: 14px
+@media screen and (max-width: 1015px)
+	.slider__title
+		.container
+			left: 0
+@media screen and (max-width: 990px)
+	.title
+		font-size: 24px
+		line-height: 32px
+		margin-bottom: 10px
+		text-align: center
+	.header
+		padding-top: 20px
+		padding-bottom: 25px
+	.mobile-btn-nav
+		display: block
+	.header__content
+		display: none
+	.header__desc
+		margin-top: -1px
+	.popular__title
+		text-align: center
+		line-height: 26px
+	.popular__list
+		width: 700px
+		margin-left: auto
+		margin-right: auto
+	.plashka
+		padding: 0 10px
+		.col
+			width: 33.3333%
+			margin-right: 0
+	.plashka__title
+		padding-right: 0
+		text-align: center
+		&:before
+			display: none
+	.plashka__number
+		padding-left: 0
+		text-align: center
+	.plashka__email
+		text-align: center
+	.contacts
+		.col
+			float: none
+			width: 100%
+		iframe
+			width: 100% !important
+	.contacts__right
+		margin-top: -5px
+	.main-content__title
+		text-align: left
+	.feedback__input
+		&.input-phone
+			width: 100%
+	.album 
+		.col
+			float: none
+			width: 100%
+			margin-left: auto
+			img
+				margin-left: auto
+				margin-right: auto
+				max-width: 100%
+	.album__title
+		max-width: 460px
+		margin-left: auto
+		margin-right: auto
+	.projects__list
+		text-align: center
+		max-width: 520px
+		margin-left: auto
+		margin-right: auto
+		.col
+			float: none
+			display: inline-block
+			vertical-align: top
+			margin-left: 0
+			margin-right: 0
+		.project
+			float: none
+			display: block
+			vertical-align: top
+			text-align: left
+		.project__content
+			padding-bottom: 30px
+
+	.project-page
+		.table
+			width: 100%
+	.project-page__left, .project-page__right
+		float: none
+		width: 100%
+	.question
+		display: none
+		text-align: center
+		max-width: 360px
+		margin-left: auto
+		margin-right: auto
+	.image
+		margin-top: 20px
+		img
+			margin-left: auto
+			margin-right: auto
+			max-width: 100%
+	.portfolio__list
+
+	.portfolio__item
+		
+	.portfolio__img, .portfolio__content
+		float: none
+		max-width: 520px
+		width: 100%
+		margin-left: auto
+		margin-right: auto
+	.portfolio__img
+		margin-bottom: 15px
+		height: auto
+		min-height: 0
+		+ .portfolio__content
+			margin-top: 10px
+		.img-count
+			display: none
+		img
+			max-width: 100%
+			+ .img-count
+				display: block
+	.img
+		display: block
+		float: none !important
+		margin-left: auto !important
+		margin-right: auto !important
+		margin-bottom: 10px
+	.textpage
+		.table
+			width: 100%
+			th, td
+				padding: 3px
+				text-align: center
+	.projects
+		padding-bottom: 0
+	.project, .project__content
+		background: none
+	.main
+		padding-bottom: 150px
+	.footer
+		background: #A50D10
+@media screen and (max-width: 910px)
+	.footer__copy, .footer__contacts
+		float: none
+		max-width: 285px
+		margin-left: auto
+		margin-right: auto
+	.footer__contacts
+		padding-right: 0
+@media screen and (max-width: 880px)
+	.main-content__left, .main-content__right
+		float: none
+		width: 100%
+
+	.main-content__right
+		padding-top: 25px
+		li
+			font-size: 15px !important
+@media screen and (max-width: 768px)
+	.slider
+		// display: none
+	.slider__item
+		height: 415px
+	.popular__title
+		margin-top: 23px
+	.slider__title
+		top: 63px
+		bottom: auto
+		.container
+			width: 310px
+			position: absolute
+			left: 0
+		span
+			padding-left: 15px
+			&:nth-of-type(1)
+				font-size: 27.3px
+				width: 290px
+				line-height: 50px
+			&:nth-of-type(2)
+				font-size: 18.9px
+				width: 290px
+				line-height: 35px
+	.slider__list
+		img
+			position: relative
+			width: auto
+	.slick-dotted.slick-slider
+		margin-bottom: 60px
+@media screen and (max-width: 750px)
+	.popular__list
+		width: 100%
+	.popular__wrapper
+		width: 100% !important
+		max-width: 500px
+		margin-left: auto
+		margin-right: auto
+		text-align: center
+		.project
+			float: none
+			display: none
+			margin-left: 10px
+			margin-right: 10px
+			vertical-align: top
+			text-align: left
+			&:nth-of-type(1), &:nth-of-type(2), &:nth-of-type(3), &:nth-of-type(4)
+				display: inline-block
+		.project__content
+			padding-bottom: 30px
+	.plashka
+		background: #C8181B
+		padding-top: 25px
+		padding-bottom: 50px
+		.col
+			float: none
+			width: 210px
+			padding-top: 0
+			padding-bottom: 0
+			margin-left: auto
+			margin-right: auto
+			text-align: left !important
+
+		.plashka__number
+			margin-top: 15px
+			margin-bottom: 15px
+			color: #d8d8d8
+	.main-content
+		margin-top: 35px
+	.main-content__left
+		p
+			font-size: 13px
+			line-height: 17px
+			margin-bottom: 15px
+@media screen and (max-width: 630px)
+	.popup
+		.message
+			position: relative
+			bottom: auto
+			right: auto
+			margin-top: 20px
+			text-align: center
+	.popup__window_step-1, .popup__window_step-2
+		width: 100%
+		background-image: none
+		padding: 20px
+	.popup__input
+		width: 100% !important
+		display: block !important
+		margin-left: 0 !important
+		margin-right: 0 !important
+	.popup__guarantee
+		display: none
+	.button_gray
+		width: 100%
+	.feedback
+		.message
+			position: relative
+			bottom: 0
+			margin-top: 20px
+			text-align: center
+			font-size: 14px
+			font-weight: 700
+	.slider__list
+		img
+			left: -20%
+@media screen and (max-width: 550px)
+	.images__title, .image__icon
+		display: none
+	.image
+		margin-bottom: 10px
+	.images
+		margin-bottom: 15px
+	.images__list
+		.icon
+			display: none
+		.col
+			float: none
+			width: 100%
+			margin-bottom: 10px
+			img
+				transform: none !important
+	.plan__title
+		font-size: 16px
+		text-align: center
+	.plan
+		.col
+			float: none
+			margin-bottom: 20px
+			max-width: 170px
+			margin-left: auto !important
+			margin-right: auto !important
+@media screen and (max-width: 500px)
+	.feedback
+		padding: 20px
+	.feedback__title
+		margin-bottom: 10px
+	.main
+		background-size: 95%
+	.slider__list
+		img
+			left: -40%
+@media screen and (max-width: 430px)
+	.popup__desc
+		br
+			display: none
+	.popup__title
+		padding-right: 30px
+@media screen and (max-width: 360px)
+	.header__logo
+		margin-right: 14px
+	.header__desc
+		font-size: 14px
+
+	.popular__title
+		font-size: 20px
+		width: 170px
+		margin-left: auto
+		margin-right: auto
+		margin-bottom: 20px
+@media screen and (max-width: 390px)
+	.slider__list
+		img
+			left: -70%
